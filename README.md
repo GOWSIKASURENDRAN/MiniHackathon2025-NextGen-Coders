@@ -1,6 +1,12 @@
-# Inclusive Accessibility Platform
+# 🚀 Inclusive Accessibility Platform
+## MiniHackathon2025-NextGen-Coders Submission
 
 A comprehensive web platform designed to make digital spaces accessible for everyone, with special focus on hearing and visually impaired users.
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Available-green)](http://localhost:5000)
+[![React](https://img.shields.io/badge/React-18.2.0-blue)](https://reactjs.org/)
+[![Flask](https://img.shields.io/badge/Flask-2.3.3-green)](https://flask.palletsprojects.com/)
+[![Accessibility](https://img.shields.io/badge/Accessibility-WCAG%202.1%20AA-orange)](https://www.w3.org/WAI/WCAG21/quickref/)
 
 ## 🌟 Features
 
@@ -46,6 +52,33 @@ A comprehensive web platform designed to make digital spaces accessible for ever
 - **Object Detection**: Computer vision for object identification
 - **NLP Summarization**: Content analysis and summarization
 
+## 🚀 Quick Start
+
+### Option 1: One-Command Setup
+```bash
+# Clone the repository
+git clone https://github.com/GOWSIKASURENDRAN/MiniHackathon2025-NextGen-Coders.git
+cd MiniHackathon2025-NextGen-Coders
+
+# Start both servers (recommended)
+python start.py
+```
+
+### Option 2: Manual Setup
+```bash
+# Backend
+pip install -r requirements_simple.txt
+python simple_app.py
+
+# Frontend (in another terminal)
+npm install
+npm start
+```
+
+### 🌐 Access the Application
+- **Main App**: http://localhost:3000 (React Frontend)
+- **Demo Version**: http://localhost:5000 (Flask Backend)
+
 ## 🛠️ Installation
 
 ### Prerequisites
@@ -56,10 +89,10 @@ A comprehensive web platform designed to make digital spaces accessible for ever
 ### Backend Setup
 ```bash
 # Install Python dependencies
-pip install -r requirements.txt
+pip install -r requirements_simple.txt
 
 # Run the Flask server
-python app.py
+python simple_app.py
 ```
 
 ### Frontend Setup
