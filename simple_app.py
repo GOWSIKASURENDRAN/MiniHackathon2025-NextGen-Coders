@@ -12,7 +12,7 @@ def home():
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Inclusive Accessibility Platform</title>
+        <title>Inclusive Accessibility Platform - MiniHackathon2025</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
         <style>
@@ -125,7 +125,7 @@ def home():
                             <div class="card-body">
                                 <button class="btn btn-success" onclick="startObjectDetection()">
                                     <i class="fas fa-camera me-2"></i>
-                                    Start Camera
+                                    Start Detection
                                 </button>
                                 <div id="objectResult" class="mt-3 p-3 bg-light rounded">
                                     Object detection results will appear here...
@@ -201,20 +201,6 @@ def health():
             'Emergency Alerts',
             'Multi-mode Communication'
         ]
-    })
-
-@app.route('/api/demo/speech', methods=['POST'])
-def demo_speech():
-    return jsonify({
-        'text': 'This is a simulated speech recognition response for the accessibility platform demo.',
-        'confidence': 0.95
-    })
-
-@app.route('/api/demo/objects', methods=['POST'])
-def demo_objects():
-    return jsonify({
-        'objects': ['computer', 'keyboard', 'mouse', 'coffee cup'],
-        'description': 'Detected common office objects using computer vision technology.'
     })
 
 if __name__ == '__main__':

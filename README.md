@@ -4,7 +4,6 @@
 A comprehensive web platform designed to make digital spaces accessible for everyone, with special focus on hearing and visually impaired users.
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Available-green)](http://localhost:5000)
-[![React](https://img.shields.io/badge/React-18.2.0-blue)](https://reactjs.org/)
 [![Flask](https://img.shields.io/badge/Flask-2.3.3-green)](https://flask.palletsprojects.com/)
 [![Accessibility](https://img.shields.io/badge/Accessibility-WCAG%202.1%20AA-orange)](https://www.w3.org/WAI/WCAG21/quickref/)
 
@@ -28,116 +27,40 @@ A comprehensive web platform designed to make digital spaces accessible for ever
 - **Community Hub**: Connect with other users and accessibility advocates
 - **Customizable Settings**: Personalized accessibility preferences
 
-## 🚀 Tech Stack
-
-### Backend
-- **Python Flask**: Web framework
-- **SQLAlchemy**: Database ORM
-- **JWT**: Authentication
-- **OpenCV**: Computer vision
-- **Tesseract**: OCR
-- **spaCy**: NLP processing
-- **Transformers**: AI models
-
-### Frontend
-- **React.js**: User interface
-- **Bootstrap**: CSS framework
-- **Web Speech API**: Speech recognition
-- **TensorFlow.js**: Machine learning
-- **MediaPipe**: Hand gesture detection
-
-### AI/ML
-- **Speech Recognition**: Real-time speech-to-text
-- **Sign Language Detection**: Hand gesture recognition
-- **Object Detection**: Computer vision for object identification
-- **NLP Summarization**: Content analysis and summarization
-
 ## 🚀 Quick Start
 
-### Option 1: One-Command Setup
+### Option 1: Flask Backend (Recommended)
 ```bash
-# Clone the repository
-git clone https://github.com/GOWSIKASURENDRAN/MiniHackathon2025-NextGen-Coders.git
-cd MiniHackathon2025-NextGen-Coders
+# Install dependencies
+pip install flask flask-cors
 
-# Start both servers (recommended)
-python start.py
+# Run the application
+python simple_app.py
 ```
 
-### Option 2: Manual Setup
+### Option 2: HTML Version
 ```bash
-# Backend
-pip install -r requirements_simple.txt
-python simple_app.py
-
-# Frontend (in another terminal)
-npm install
-npm start
+# Serve the HTML file
+python -m http.server 3000
 ```
 
 ### 🌐 Access the Application
-- **Main App**: http://localhost:3000 (React Frontend)
-- **Demo Version**: http://localhost:5000 (Flask Backend)
+- **Flask Version**: http://localhost:5000
+- **HTML Version**: http://localhost:3000
 
-## 🛠️ Installation
+## 🎯 Demo Features
 
-### Prerequisites
-- Python 3.8+
-- Node.js 16+
-- npm or yarn
+1. **Speech Recognition**: Click "Start Listening" to test speech-to-text
+2. **Object Detection**: Click "Start Detection" to simulate object recognition
+3. **Accessibility Toggles**: Use buttons in top-right corner for high contrast and large text
+4. **Keyboard Navigation**: Use Tab key to navigate through the interface
 
-### Backend Setup
-```bash
-# Install Python dependencies
-pip install -r requirements_simple.txt
+## 🛠️ Technology Stack
 
-# Run the Flask server
-python simple_app.py
-```
-
-### Frontend Setup
-```bash
-# Install Node.js dependencies
-npm install
-
-# Start the React development server
-npm start
-```
-
-## 🎯 Usage
-
-1. **Register/Login**: Create an account or login to access features
-2. **Choose Your Role**: Select from Normal User, Accessibility Advocate, or Admin
-3. **Customize Settings**: Set your accessibility preferences
-4. **Access Features**: Use the dashboard to access relevant features based on your needs
-
-## 🔧 Configuration
-
-### Environment Variables
-Create a `.env` file in the root directory:
-```
-FLASK_ENV=development
-SECRET_KEY=your-secret-key
-JWT_SECRET_KEY=your-jwt-secret
-DATABASE_URL=sqlite:///accessibility_platform.db
-```
-
-### Accessibility Settings
-- High contrast mode
-- Large text
-- Voice navigation
-- Screen reader support
-- Haptic feedback
-- Audio cues
-
-## 📱 Mobile Support
-
-The platform is fully responsive and works on:
-- Desktop computers
-- Tablets
-- Mobile phones
-- Screen readers
-- Voice assistants
+- **Backend**: Python Flask
+- **Frontend**: HTML5, CSS3, Bootstrap 5
+- **Icons**: Font Awesome
+- **Accessibility**: WCAG 2.1 AA compliant
 
 ## 🌍 Accessibility Standards
 
@@ -146,38 +69,15 @@ This platform follows:
 - **Section 508**: US federal accessibility standards
 - **ADA**: Americans with Disabilities Act compliance
 
-## 🤝 Contributing
+## 🎉 Hackathon Presentation
 
-We welcome contributions! Please see our contributing guidelines for details.
-
-### Development Setup
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- Accessibility community for feedback and testing
-- Open source libraries and frameworks
-- Hackathon organizers and participants
-- Contributors and volunteers
+**"We built an Inclusive Accessibility Platform — a web app designed for both hearing and visually impaired communities. Our solution provides real-time video captions, AI-powered sign language translation, object narration, and emergency alerts. Unlike single-purpose tools, this platform is a multi-accessibility hub, combining AI + IoT + NLP for real-world impact."**
 
 ## 📞 Support
 
-For support, please contact:
-- Email: support@accessibilityplatform.com
-- GitHub Issues: [Create an issue](https://github.com/accessibility-platform/issues)
-- Community Forum: [Join our community](https://community.accessibilityplatform.com)
-
-## 🎉 Hackathon Presentation
-
-**"We built an Inclusive Accessibility Platform — a web app designed for both hearing and visually impaired communities. Our solution provides real-time video captions, AI-powered sign language translation, object narration, and emergency alerts. Unlike single-purpose tools, this platform is a multi-accessibility hub, combining AI + IoT + NLP for real-world impact. We believe this project will empower millions to access digital content and communication without barriers."**
+For support or questions about this project:
+- GitHub Issues: [Create an issue](https://github.com/GOWSIKASURENDRAN/MiniHackathon2025-NextGen-Coders/issues)
+- Email: Contact through GitHub profile
 
 ---
 
